@@ -30,23 +30,154 @@ nav a:hover{
     color: rebeccapurple;
 }
 body{
-    background-color: beige;
+    background-color:bisque;
 }
+main {
+    padding: 2rem 3rem;
+  }
 
+  .titulo-memorias {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 20px;
+  }
+  
+  .fotos{
+    margin-top: 30px;
+  }
+  
+  .imagem {
+    margin-left: 34.375rem;
+    margin-bottom: 3.125rem;
+  }
+  
+  .parte-esquerda {
+    display: inline-block;
+    margin: 0.938rem 0rem 1.563rem 9.375rem;
+  }
+  
+  .direita {
+    width: 21rem;
+    height: 25.188rem;
+    position: relative;
+    background-color: rgb(201, 150, 248);
+    padding: 1.188rem 1.188rem 5.313rem 1.188rem;
+    box-shadow: 0.625rem 0.313rem 0.313rem rebeccapurple;
+  }
+  
+  .texto {
+    font: 1.25rem 'pixel';
+    display: inline-block;
+    vertical-align: top;
+    margin: 10.625rem 0rem 0rem -56.25rem;
+    color:black;
+    font-weight: bold;
+  }
 
+  .foto {
+    width: 18.75rem;
+    height: 19rem;
+  }
 
+  .foto00 {
+    width: 17rem;
+    height: 20rem;
+  }
 
+  .foto01 {
+    width: 17rem;
+    height: 20rem;
+  }
+   .foto02 {
+    width: 17rem;
+    height: 20rem;
+  }
 
+  .foto03 {
+    width: 17rem;
+    height: 20rem;
+  }
 
+  figure img {
+    width: 100%;
+  }
+  
+  figcaption {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:2.5rem;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+  }
 
+  .proxima{
+    margin-left: 45.7%;
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1, 25rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0.313rem;
+    color: rgb(255, 192, 2);
+    background-color: rebeccapurple;
+    border-radius: 4rem;
+    margin-bottom: 5px;
+  }
+ .anterior{
+  margin-left: 45.7%;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1, 25rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0.313rem;
+  color: rgb(255, 192, 2);
+  background-color: rebeccapurple;
+  border-radius: 4rem;
+  margin-bottom: 5px;
+ }
 
+.voltar{
+  margin-left: 45%;
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-size: 1, 25rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 0.313rem;
+  color: rgb(255, 192, 2);
+  background-color: rebeccapurple;
+  border-radius: 4rem;
+  margin-bottom: 5px;
+}
 
 footer{
     background: rgb(201, 150, 248);
     width: 100%;
     height: 100px;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     text-align: center;
+}
+
+@media screen and (max-width:480px){
+    .caixa, .main, .body{
+      width: auto;
+    }
+    .voltar, .anterior, .proxima{
+      margin-left: 45%;
+    }
+    .parte-esquerda{
+      display:flexbox;
+      margin: 0.938rem 0rem 1.563rem 0rem;
+    }
+    .texto{
+      display: flexbox;
+      vertical-align: sub;
+      margin: 10.625rem 0rem 0rem -56.25rem;
+    }
+  
 }
