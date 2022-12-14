@@ -59,6 +59,7 @@ footer{
     bottom: 0;
     left: 0;
     text-align: center;
+    color: rgb(252, 216, 169);
 }
 .voltar{
     margin-left: 45%;
@@ -68,8 +69,8 @@ footer{
     font-size: 1, 25rem;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 0.313rem;
-    color: rgb(255, 192, 2);
-    background-color: rebeccapurple;
+    color:yellow;
+    background-color:blueviolet;
     border-radius: 4rem;
     margin-bottom: 5px;
   }
@@ -79,7 +80,7 @@ footer{
         width: auto;
     }
     .voltar{
-        margin-left: 35.5%;
+        margin: 20px 0 35px 32%;
     }
 }
  

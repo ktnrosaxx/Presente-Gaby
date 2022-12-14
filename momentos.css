@@ -41,9 +41,12 @@ main {
     text-align: center;
     font-weight: bold;
     font-size: 30px;
-    padding: 20px;
+    padding: 20px 10px;
   }
   
+  audio{
+    margin: 20px 35% 20px 38%;
+  }
   .fotos{
     margin-top: 30px;
   }
@@ -66,7 +69,6 @@ main {
     padding: 1.188rem 1.188rem 5.313rem 1.188rem;
     box-shadow: 0.625rem 0.313rem 0.313rem rebeccapurple;
   }
-  
   .texto {
     font: 1.25rem 'pixel';
     display: inline-block;
@@ -109,7 +111,7 @@ main {
     font-size:2.5rem;
     text-align: center;
     font-weight: bold;
-    color: white;
+    color: rgb(253, 209, 64);
   }
 
   .proxima{
@@ -121,7 +123,7 @@ main {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     padding: 0.313rem;
     color: rgb(255, 192, 2);
-    background-color: rebeccapurple;
+    background-color: rgb(157, 111, 204);
     border-radius: 4rem;
     margin-bottom: 5px;
   }
@@ -134,7 +136,7 @@ main {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 0.313rem;
   color: rgb(255, 192, 2);
-  background-color: rebeccapurple;
+  background-color: rgb(157, 111, 204);
   border-radius: 4rem;
   margin-bottom: 5px;
  }
@@ -147,8 +149,8 @@ main {
   font-size: 1, 25rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   padding: 0.313rem;
-  color: rgb(255, 192, 2);
-  background-color: rebeccapurple;
+  color: yellow;
+  background-color: blueviolet;
   border-radius: 4rem;
   margin-bottom: 5px;
 }
@@ -161,23 +163,45 @@ footer{
     bottom: 0;
     left: 0;
     text-align: center;
+    color: rgb(252, 216, 169);
 }
 
 @media screen and (max-width:480px){
-    .caixa, .main, .body{
-      width: auto;
-    }
-    .voltar, .anterior, .proxima{
-      margin-left: 45%;
-    }
-    .parte-esquerda{
-      display:flexbox;
-      margin: 0.938rem 0rem 1.563rem 0rem;
-    }
-    .texto{
-      display: flexbox;
-      vertical-align: sub;
-      margin: 10.625rem 0rem 0rem -56.25rem;
-    }
+  .caixa, .main, .body{
+    width: auto;
+  }
+  .anterior, .proxima{
+    margin-left: 30%;
+    margin-top: 25%;
+  }
+  .voltar{
+    margin-left: 28%;
+    margin-top: 10%;
+  }
+  .titulo-memorias{
+    margin: 35px 0 20px 0;
+  }
   
+  audio{
+    margin: 20px 15% 20px 10px; 
+  }
+
+  .parte-esquerda{
+    display:flexbox;
+    margin: 4rem 2rem 1.563rem -37rem;
+  }
+  .texto{
+    display: flexbox;
+    vertical-align: top;
+    margin: 34rem 0rem 0rem -25rem;
+    height: 20px;
+    word-break: break-all;
+  }
+  .imagem {
+    padding: -10px;
+  }
+.direita{
+  height: 22rem;
+}
+
 }
